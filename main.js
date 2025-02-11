@@ -18,7 +18,7 @@ const wrapper = document.querySelector("section")
     })
 
 //no hovered: the no-button moves around?
-//Ide til teknik fra https://youtu.be/6ohVH0hQlD8
+//Idea from:  https://youtu.be/6ohVH0hQlD8
 
 noButton.addEventListener('mouseover', () => {
     //making elements for reaction - ide fra
@@ -34,8 +34,7 @@ noButton.addEventListener('mouseover', () => {
     console.log("mouse was over no")
 });
 
-//for at siden kan bruges af telefonbrugere laver jeg samme flytte-funktion til nejknapen ved klik
-
+//also adding the button-mover when clicked for good measure - in case of phone-users
 noButton.addEventListener('click', () => {
     //making elements for reaction - ide fra
     const wrapperReact = wrapper.getBoundingClientRect();
