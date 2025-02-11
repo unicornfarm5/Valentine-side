@@ -1,0 +1,48 @@
+
+body {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.content {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.button {
+    padding: 10px;
+    margin: 10px;
+    min-width: 7rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.button:hover {
+    border: #222222;
+    border-style: double;
+}
+
+#yes-button {
+    background-color: #3ecf8e;
+    border-color: #3ecf8e;
+    border-radius: 15px;
+}
+
+#no-button {
+    background-color: rgba(214, 70, 70, 1);
+    border-color: rgba(214, 70, 70, 1);
+    border-radius: 15px;
+}
+
+h1 {
+    font-size: 3rem;
+    color: rgba(214, 70, 70, 1);
+}
